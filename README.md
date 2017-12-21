@@ -1,3 +1,3 @@
 # caesar-cipher
 
-Caesar Cipher implementation.
+Caesar Cipher implementation with frequency analysis decryption.
