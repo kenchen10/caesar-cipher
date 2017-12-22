@@ -10,6 +10,7 @@ frequencies = {'E': 12.70, 'T': 9.06, 'A': 8.17, 'O': 7.51, 'I': 6.97, 'N': 6.75
 def calc_freq(ciphertext):
     """Calculates frequencies of each letter in the ciphertext."""
     freq, length = {}, len(ciphertext)
+    ciphertext = ciphertext.replace(" ", "")
     for letter in ciphertext:
         if letter in freq:
             freq[letter] += 1
